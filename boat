@@ -1,0 +1,32 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANVAS BOAT</title>
+    <style>
+        canvas{
+            border: 1px solid blueviolet;
+            margin: 50px auto;
+isplay: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas width="500" height="500"></canvas>
+    <script>
+        var ctx = document.getElementsByTagName("canvas")[0].getContext("2d");
+        ctx.moveTo(120,180);
+           ctx.lineTo(140,200);
+           ctx.lineTo(360,200);
+           ctx.lineTo(200,150);
+           ctx.lineTo(100,150);
+           ctx.moveTo(200,150);
+           ctx.lineTo(250,20);
+           ctx.lineTo(190,90);
+           ctx.lineTo(250,70);
+           ctx.stroke();
+    </script>
+</body>
+</html
